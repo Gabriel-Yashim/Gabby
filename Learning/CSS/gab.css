@@ -1,0 +1,17 @@
+body{
+	  	background-color: rgb(211, 200, 211);
+	  	margin-left: 0;
+	
+}
+.wrap{
+	  width: 600px;
+	   margin: auto;
+}
+blockquote {
+	border: 1px solid white;
+	text-align: center;
+	margin-left: 0;
+}
+li:nth-child(2){
+	color:red;
+}

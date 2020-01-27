@@ -1,0 +1,19 @@
+
+	
+	header{
+		display: flex;
+		background-color:  black;
+	}
+	a,ul, li{*{
+    box-sizing: border-box;
+}
+html, body{
+	       background-color: rgb(211, 200, 211);
+		text-decoration: none;
+		colour:  white;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	ul{
+		

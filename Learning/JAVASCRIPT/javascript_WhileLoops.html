@@ -1,0 +1,94 @@
+<html>
+
+    <head>
+
+	     <title>javascript</title>
+	      
+    </head>
+
+    <body>
+         <div id="tweetsDiv"></div>
+         <p id="text">How many fingers are you holding up?</p>
+
+       <p>
+         <select type="text" name="" id="displayNumber">
+           
+            <option>0</option>
+
+            <option>1</option>
+
+            <option>2</option>
+
+            <option>3</option>
+
+            <option>4</option>
+
+            <option>5</option>
+
+         </select>
+
+
+         <button id="guess">Guess</button>
+       </p>        
+
+       <script type="text/javascript">
+      
+                //Another Game
+              
+
+            document.getElementById("guess").oncllick = function(){
+
+              var displayNumber = document.getElementById("displayNumber").value
+
+          var gotIt = false;
+
+              var numberOfGuesses = 1;
+
+             while ( gotIt == false)  {
+
+             var guess = Math.random();
+
+             guess = guess * 6;
+
+              guess = Math.floor(guess);
+
+              if ( guess == displayNumber){
+
+                 gotIt = true;
+
+                alert("Correct guess, it was " + guess +"and it took me " + numberOfGuesses + " guesses");
+               
+                } else{
+                   numberOfGuesses++;
+              }
+          }
+      }
+
+      /*var i = 0
+
+      while ( i < 3){
+        i++
+        alert(i)
+      }*/
+
+     /* tweetString = "";
+
+      var tweets = ["Goodmorning Fam", "Having cornflacks for breakfast", "Am off to work", "Am back!"]
+
+      var i = 0
+
+      while ( i < tweets.length) {
+        
+       tweetString = tweetString + "<p>" + tweets[i] + "</p>"
+       i++
+      }
+
+       document.getElementById("tweetsDiv").innerHTML = tweetString;*/
+
+        
+
+       </script>
+
+    </body>
+
+</html>

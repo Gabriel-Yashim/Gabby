@@ -1,0 +1,60 @@
+ body{
+ 	background-color: darkgrey;
+    height: 1500px;
+    
+ }
+ .date{
+ 	float: right;
+ 	margin: 0;
+ 	padding: 0px;
+ }
+ .roll{
+ 	background-color: white;
+ 	color: red;
+ 	font-size: 30px;
+ 	padding: 0px 0px;
+ }
+ .wrap{
+ 	min-width: 900px;
+ 	background: ;
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+.content, aside{
+	height: 1300px;
+}
+.content{
+	background: ;
+	float: left;
+	width: 80%;
+	height: 1500px;
+}
+.content li{
+	color: red;
+	list-style: none;
+}
+button a{
+	box-shadow: transparent;
+  color: black;   
+}
+input{
+	text-transform: uppercase;
+}
+.small input{
+	text-transform: lowercase;
+}
+aside{
+	background: ;
+	width: 20%;
+	float :right;
+	
+}
+aside,ul{
+	padding-left: 0;
+	list-style: none;
+}
+li{
+
+	padding-bottom: 10px;
+}

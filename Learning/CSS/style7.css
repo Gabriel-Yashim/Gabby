@@ -1,0 +1,37 @@
+/*Global styles
+-------------------*/
+body{
+	
+	background-color: grey;
+}
+h1{
+  text-align: center;
+}
+.wrap{
+	background-color: white;
+	font-stretch: 3px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-variant: 3px;
+	text-align: center;
+	margin: 40px 0px;
+}
+a{
+	float: right;
+	background-color: skyblue;
+	text-decoration: none;
+	padding: 5px 5px;
+}
+/*Footer styles
+-------------------*/
+footer{
+	margin:50px 0px 0px 0px;
+	color: white;
+	display: flex;
+    
+	padding: 0;
+	background-color: black;
+}
+.b{
+	padding-left: 150px;
+}

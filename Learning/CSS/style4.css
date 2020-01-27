@@ -1,0 +1,84 @@
+/*Color palette
+*#2B2D42 = dark blue
+*#8D99AE = light blue
+*#EDF2F4 = blue/white
+*#EF233C = red
+*#00171F = mitch black
+*#2B2D42 = gunmetal
+-------------------*/
+
+/*Global styles
+-------------------*/
+body{
+ background-image: url(../img/SITE1.jpg);
+}
+/*Header styles
+-------------------*/
+header footer{
+
+}
+ nav li{
+		 
+    text-decoration: none;
+	
+    display: inline;
+    margin: 5px 0px;	
+    float: right;
+    padding-left: 20px;
+    list-style: none; 
+}
+.wrap :hover{
+	background-color: red;
+}
+h1{
+  background:url(../img/site.jpg)
+  text-align: center;
+  margin-top: 50px;
+	font-family: 'mirinda One', cursive;
+	font-size: 70px;
+	text-transform: uppercase;
+	text-shadow: 3px 2px 5px red, 5px 4px 10px black;  
+	font-variant: small-caps;
+	letter-spacing: 4px;
+ }
+/*Form styles
+-------------------*/
+.for form{
+	list-style: none;
+	margin-bottom: 20px;
+	
+}
+form ul{
+	padding-left: 0;
+}
+p{
+	width: 600px;
+}
+label{
+	display: block;
+	cursor: pointer;
+	cursor: #292929;
+	padding-bottom: 8px;
+	font-style: sans-serif;
+}
+input{
+	text-transform: uppercase;
+}
+textarea{
+	width: 400px;
+	height: 250px;
+}
+/*Footer styles
+-------------------*/
+footer{
+	color: red;
+	text-shadow: 2px 0px 1px red, 2px 0px 0px black;
+	display: flex;
+	background-color: black;
+	text-decoration: none;
+    font-size: 20px;
+}
+.b{
+	c
+	color: white;
+}

@@ -1,0 +1,40 @@
+/*GLobal style
+-----------------*/
+body{
+	font-style: helvetica;
+	background-color: ;
+}
+.wrap{
+	float:right;
+	width: 600px;
+}
+li{
+	display: inline; 
+	
+}
+ul a{
+	text-decoration: none;
+	color: blue;
+	float: right;
+    padding-left: 10px;
+}
+ul a:hover{
+ 	
+	font-size: 15px;
+	color: pink;
+    letter-spacing: 4px;
+}
+/*header style
+-----------------*/
+header {
+	background:#00171F;
+	height: 230px;
+}
+h1{
+	color: #8D99AE;
+	margin-left: 200px;
+	font-size: 50px;
+}
+img{
+	float: left;
+}

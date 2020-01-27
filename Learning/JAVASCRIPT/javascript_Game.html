@@ -1,0 +1,55 @@
+<html>
+
+    <head>
+
+	     <title>javascript</title>
+	      
+    </head>
+
+    <body>
+
+    	<style type="text/css">
+    		
+    		input{
+    			width: 200px;	
+    		}
+    	</style>
+
+    	<p id="text">How many fingers am I holding up?</p>
+
+     <input type="text" name=""  placeholder="Enter the lucky number 1 - 10!" id="textchecker">
+
+     <button id="click">Guess</button>
+       <script type="text/javascript">
+         /*var x = 2;
+   		 if (x == 1) {
+   		 	alert("x is 1!")
+   		 } else{
+   		 	alert("x is not 1!")
+   		 }*/
+
+
+   		
+   		  document.getElementById("click").onclick = function() {
+
+   		  
+   		  	var luckyNumberEntered = document.getElementById("textchecker").value;
+
+   		  	  var luckyNumber = Math.random(); 
+
+   		  	  luckyNumber = luckyNumber * 10;
+
+   		  	 luckyNumber = Math.floor(luckyNumber);
+
+   		 if (luckyNumberEntered == luckyNumber){
+   		 	alert("Correct guess!") 
+   		 } else{
+   		 	alert("Sorry, the Number was "+ luckyNumber)
+   		 }
+   		}
+
+       </script>
+
+    </body>
+
+</html>

@@ -1,0 +1,93 @@
+<html>
+
+    <head>
+
+	     <title>javascript</title>
+	      
+    </head>
+
+    <body>
+
+       <p id="text">Hello world!</p>
+
+      <script type="text/javascript">
+        //this is to change "Hello world" to "Hello gabriel"
+
+//document.getElementById("text").innerHTML = "Hello Gabriel";
+
+       </script>
+       <p id="text">Hello world!</p>
+
+       <button id="myButton">Change text</button>
+
+       <p id="secondParagraph">Javascript is ...</p>
+
+       <button id="secondButton">Append text!</button>
+
+       <p id="empty"></p>
+
+       <button id="createText">Create text</button>
+
+       <button id="styleText">style text</button>
+
+       <script type="text/javascript">
+
+      document.getElementById("myButton").onclick = function() {
+        document.getElementById("text").innerHTML = "Hello Gabriel";
+      }
+
+            document.getElementById("secondButton").onclick = function() {
+        document.getElementById("secondParagraph").innerHTML ="I think " + document.getElementById("secondParagraph").innerHTML + "Awsome!";
+      }
+       
+       document.getElementById("createText").onclick = function() {
+        document.getElementById("empty").innerHTML = "<h1>Javascript is becoming fun</h>";
+       }
+
+        document.getElementById("styleText").onclick = function() {
+        document.getElementById("secondParagraph").style.color = "red";
+       }
+
+        document.getElementById("styleText").onclick = function() {
+        document.getElementById("secondParagraph").style.fontSize = "50px";
+       }
+
+       
+       <style type="text/css">
+       .circle{
+              width: 200px;
+              height: 200px;
+              border-radius: 50%;
+              float: left;
+              margin: 10px;
+       }  
+       #red-circle{
+         background-color: red;
+       }
+        #blue-circle{
+         background-color: blue;
+       }
+        #yellow-circle{
+         background-color: yellow;
+       }
+
+       </style>
+
+    
+
+      <div class="circle" id="red-circle"></div>
+
+       <div class="circle" id="blue-circle"></div>
+
+       <div class="circle" id="yellow-circle"></div>
+
+
+
+       document.getElementById("red-circle").onclick = function(){
+            document.getElementById("red-circle").style.display = "none ";
+        }
+ 
+       </script>
+    </body>
+
+</html>

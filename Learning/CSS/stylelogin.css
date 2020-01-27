@@ -1,0 +1,40 @@
+/*Global styles
+-------------------*/
+body{
+	
+	margin: 100px 500px;
+	height: 600px
+	width:400px;
+	border: 1px solid white;
+	background: #2B2D42;
+	background-size: cover;
+}
+/*input{
+      
+}*/
+
+h1{
+	margin: 100px 0px 100px 0px;
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	position: relative;
+
+}
+p{
+  text-decoration: none;
+     
+}
+/*footer styles
+-------------------*/
+footer{
+	margin-top: 50px;
+	display: inline-flex;
+	
+}
+.login_box{
+	color: #8D99AE;
+}
+a{
+	color: #EF233C;
+}

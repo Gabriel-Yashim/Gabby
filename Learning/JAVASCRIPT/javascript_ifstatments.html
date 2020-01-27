@@ -1,0 +1,45 @@
+<html>
+
+    <head>
+
+	     <title>javascript</title>
+	      
+    </head>
+
+    <body>
+
+    	<p id="text">What is the magic word?</p>
+
+     <input type="text" name=""  placeholder="Enter the magic word!" id="textchecker">
+
+     <button id="click">check</button>
+       <script type="text/javascript">
+         /*var x = 2;
+   		 if (x == 1) {
+   		 	alert("x is 1!")
+   		 } else{
+   		 	alert("x is not 1!")
+   		 }*/
+
+
+   		
+
+   		  document.getElementById("click").onclick = function() {
+
+   		  
+   		  	var magicWordEntered = document.getElementById("textchecker").value;
+
+   		  	 var magicWord = "I love you"
+
+   		 if (magicWordEntered == magicWord){
+   		 	alert("Correct guess!")
+   		 } else{
+   		 	alert("Incorrect guess")
+   		 }
+   		}
+
+       </script>
+
+    </body>
+
+</html>
